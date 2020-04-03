@@ -1,0 +1,26 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+* {
+  font-family: "Inter";
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  background-color: blue;
+}
+
+.jumbotron {
+  background: url("../assets/img/header-grafik.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
